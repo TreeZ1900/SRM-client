@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 from paho.mqtt.enums import CallbackAPIVersion
-from generated import robomaster_pb2 as rm_pb
+import robomaster_pb2 as rm_pb
 from config import SERVER_IP, MQTT_PORT, CLIENT_ID, RECONNECT_DELAY, LOG_FILE
 import logging
 import time
