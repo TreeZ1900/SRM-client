@@ -516,5 +516,6 @@ if __name__ == "__main__":
         ui_thread.join()
         serial_thread.join()
         video_thread.join()
+
         log_thread.join()
 
